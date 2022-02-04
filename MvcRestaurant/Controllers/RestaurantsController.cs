@@ -11,11 +11,11 @@ using MvcRestaurant.Models;
 
 namespace MvcRestaurant.Controllers
 {
-    public class PlatilloesController : Controller
+    public class RestaurantsController : Controller
     {
         private readonly MvcRestaurantContext _context;
 
-        public PlatilloesController(MvcRestaurantContext context)
+        public RestaurantsController(MvcRestaurantContext context)
         {
             _context = context;
         }
