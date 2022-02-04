@@ -4,11 +4,9 @@ namespace MvcRestaurant.Models
 {
     public class Platillo
     {
-        public int idMenu { get; set; }
+        public int Id { get; set; }
         public string? NombreDelPlatillo { get; set; }
-
-        [DataType(DataType.Date)]
-        public TimeOnly TiempoDePreparacion { get; set; }
+        public int TiempoDePreparacion { get; set; }
         public string? Ingredientes { get; set; }
         public decimal Precio { get; set; }
     }
